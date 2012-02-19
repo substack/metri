@@ -1,5 +1,5 @@
 {
-    _id : '_design/record',
+    _id : '_design/records',
     views : {
         all : function (doc) {
             if (doc.type === 'record') emit(null, doc);
