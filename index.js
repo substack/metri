@@ -31,6 +31,7 @@ Metri.prototype.record = function (experiment, session, data) {
     });
     
     var doc = {
+        type : 'record',
         time : Date.now(),
         experiment : experiment,
         session : session,
